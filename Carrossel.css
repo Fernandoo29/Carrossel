@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#banner1{background-color: #2f1c68;}
+#banner2{background-color: #e4cfb4;}
+#banner3{background-color: #ce651e;}
+#banner4{background-color: #0c080f;}
+#banner5{background-color: #000002;}
+
+#carrossel-container{
+    padding: 10px;
+    width: fit-content;
+    margin: 200px auto 0 auto;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+
+#banners{
+    display: flex;
+}
+
+#loadingChangeBar{
+    height: 10px;
+    background-color: #00000038;
+    border-radius: 30px;
+}
+
+#loadingChangeBarContainer{
+    margin: 10px 30px;
+}
+
+.banner{
+    width: 70px;
+    height: 450px;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+    margin: 5px;
+    transition: all 0.5s;
+    overflow:hidden
+}
+
+.banner h1{
+    font-size: 90px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.banner img{
+    width: 1000px;
+}
+
+.bannerDot {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
