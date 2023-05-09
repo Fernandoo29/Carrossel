@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,10 +9,10 @@ body {
 }
 
 #banner1{background-color: #2f1c68;}
-#banner2{background-color: #e4cfb4;}
+#banner2{background-color: #454f46;}
 #banner3{background-color: #ce651e;}
-#banner4{background-color: #0c080f;}
-#banner5{background-color: #000002;}
+#banner4{background-color: #606d7d;}
+#banner5{background-color: #a60c17;}
 
 #carrossel-container{
     padding: 10px;
