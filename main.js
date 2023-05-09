@@ -15,7 +15,7 @@ function bodyLoad(){
 function bannerClick(id){
     changeBanners(id);
     restartAutoChange();
-    loadingChangeBar.classList.add('resetAnimationBar');
+    // loadingChangeBar.classList.add('resetAnimationBar');
 }
 
 function autoChangeBanner(){
